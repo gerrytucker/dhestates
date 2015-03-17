@@ -12,13 +12,20 @@
 
 		<header>
 			
-			<nav role="navigation">
+			<nav class="row" role="navigation">
 				
-				<ul class="inline-list">
+				<div class="large-4 columns">
+				</div>
+				
+				<div class="large-8 columns">
 					
-<?php wp_list_pages('sort_column=menu_order&title_li=&depth=1'); ?>
-					
-				</ul>
+					<ul class="inline-list">
+
+	<?php wp_list_pages('sort_column=menu_order&title_li=&depth=1'); ?>
+
+					</ul>
+
+				</div>
 				
 			</nav>
 			
