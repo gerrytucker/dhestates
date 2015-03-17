@@ -21,7 +21,7 @@
 					
 					<ul class="inline-list">
 
-	<?php wp_list_pages('sort_column=menu_order&title_li=&depth=1'); ?>
+	<?php wp_list_pages('sort_column=menu_order&title_li=&depth=2&child_of=22'); ?>
 
 					</ul>
 
