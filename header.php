@@ -10,3 +10,16 @@
 	</head>
 	<body <?php body_class(); ?>>
 
+		<header>
+			
+			<nav role="navigation">
+				
+				<ul class="inline-list">
+					
+<?php wp_list_pages('sort_column=menu_order&title_li=&depth=1'); ?>
+					
+				</ul>
+				
+			</nav>
+			
+		</header>
