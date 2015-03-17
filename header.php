@@ -19,7 +19,7 @@
 				
 				<div class="large-8 columns">
 					
-					<ul class="inline-list">
+					<ul class="menu inline-list">
 
 	<?php wp_list_pages('sort_column=menu_order&title_li=&depth=1&exclude=22'); ?>
 
