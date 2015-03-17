@@ -12,10 +12,10 @@ function enqueue_theme_scripts() {
   wp_register_script( 'jquery', ( '//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js' ), false, null, true );
   wp_enqueue_script( 'jquery' );
 	
-	wp_register_script( 'dutchys-app', get_template_directory_uri() . '/scripts/app.min.js', false, null, true );
-  wp_enqueue_script( 'dutchys-app' );
+	wp_register_script( 'app', get_template_directory_uri() . '/scripts/app.min.js', false, null, true );
+  wp_enqueue_script( 'app' );
 
-	wp_enqueue_style( 'dutchys-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'style', get_stylesheet_uri() );
 
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_theme_scripts' );
