@@ -10,6 +10,8 @@
 	</head>
 	<body <?php body_class(); ?>>
 
+		<section class="container"></section>
+		
 		<header>
 			
 			<nav class="row" role="navigation">
