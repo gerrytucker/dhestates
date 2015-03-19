@@ -17,6 +17,7 @@
 			<nav class="row" role="navigation">
 				
 				<div class="large-4 columns">
+					<h1><a href="<?php bloginfo('home_url'); ?>">DH Estates</a></h1>
 				</div>
 				
 				<div class="large-8 columns">
